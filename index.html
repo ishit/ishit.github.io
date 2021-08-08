@@ -30,10 +30,11 @@ p  {
 	margin-top:0px;
 	margin-left:0px;
 	margin-bottom:30px;
+    width: 50%;
 }
 
 #content {
-    width: 500px; 
+    width: 50%; 
     margin: auto;
 }
 
@@ -43,9 +44,13 @@ div.pub {
     font-size:14px;
 	margin-bottom: 10px;
 	margin-top: 20px;
-    width: 700px;
+    width: 80%;
 }
 
+div.about {
+	font-weight: 100;
+    width: 100px;
+}
 a:visited { 
 	color: #417799;//#9447b6;//#007eff;
 	text-decoration: none;
@@ -76,11 +81,13 @@ a:hover {
 	<h1>Ishit Mehta</h1>
     <img src="static/profile.jpg" width=300>
 	<h2>About</h2>
-    <p>I am a PhD student at UC San Diego studying visual computing with Prof.
-    Ravi Ramamoorthi and Prof. Manmohan Chandraker. Previously I was at IIIT
-    Hyderabad working on Computer Vision and Computational Photography, advised
-    by Prof. PJ Narayanan. I have also spent time at Microsoft Research and
-    Adobe Research.
+    <div id="about">
+        <p>I am a PhD student at UC San Diego studying visual computing with Prof.
+        Ravi Ramamoorthi and Prof. Manmohan Chandraker. Previously I was at IIIT
+        Hyderabad working on Computer Vision and Computational Photography, advised
+        by Prof. PJ Narayanan. I have also spent time at Microsoft Research and
+        Adobe Research.
+    </div>
 
     <h2>Publications</h2>
     <div class="pub"> 
