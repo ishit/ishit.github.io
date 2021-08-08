@@ -9,6 +9,7 @@ body {
     font: "Open Sans", sans-serif;
     text-align: left;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 h1 {
@@ -16,21 +17,12 @@ h1 {
 	font-weight: 300;
 	text-align: left;
 }
+b {font-weight: 400}
 
 h2 {
 	font: 1.5em/1.38em "Alegreya", sans-serif;
 	margin-bottom: 10px;
 	margin-top: 50px;
-}
-
-p  { 
-	font : 1.0em/1.58em "Open Sans", sans-serif; 
-	font-weight: 100;
-	text-align: left;
-	margin-top:0px;
-	margin-left:0px;
-	margin-bottom:30px;
-    width: 50%;
 }
 
 #content {
@@ -44,25 +36,23 @@ div.pub {
     font-size:14px;
 	margin-bottom: 10px;
 	margin-top: 20px;
-    width: 80%;
 }
 
 div.about {
+    font-family: "Open Sans", sans-serif;
 	font-weight: 100;
-    width: 100px;
+    font-size:14px;
+    width: 70%; 
 }
+
 a:visited { 
 	color: #417799;//#9447b6;//#007eff;
 	text-decoration: none;
-	<!--font-style:italic;-->
 }
-
-
 
 a:link { 
 	color: #417799;//#9447b6;//#007eff;
 	text-decoration: none;
-	<!--font-style:italic;-->
 }
 
 a:hover { 
@@ -81,8 +71,9 @@ a:hover {
 	<h1>Ishit Mehta</h1>
     <img src="static/profile.jpg" width=300>
 	<h2>About</h2>
-    <div id="about">
-        <p>I am a PhD student at UC San Diego studying visual computing with Prof.
+    <div class="about">
+        <!--<p>-->
+        I am a PhD student at UC San Diego studying visual computing with Prof.
         Ravi Ramamoorthi and Prof. Manmohan Chandraker. Previously I was at IIIT
         Hyderabad working on Computer Vision and Computational Photography, advised
         by Prof. PJ Narayanan. I have also spent time at Microsoft Research and
@@ -166,10 +157,12 @@ a:hover {
     </div>
 
 	<h2>Contact</h2>
-	<p>ibmehta <b>at</b> 
+    <div class="about">
+	ibmehta <b>at</b> 
 	eng <b>
 		dot</b> ucsd <b>
 		dot</b> edu</a><br><br>
+    </div>
 </div>
 </body>
 </html>
