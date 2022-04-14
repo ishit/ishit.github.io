@@ -4,30 +4,62 @@
 <title>Ishit Mehta | UC San Diego</title>
 
 <style>
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html, body, iframe {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
 body {
-    font-size: 14px;
+    padding:50px;
+    font-size:1em;
     font: "Open Sans", sans-serif;
-    text-align: left;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    font-weight:300;
+    background-color:#fff;
+}
+h {
+    color: #555;
 }
 
 h1 {
-	font: 2.0em/1.38em "Alegreya", sans-serif; 
-	font-weight: 300;
-	text-align: left;
+    font: 2.0em/1.38em "Alegreya", sans-serif; 
+    text-align: left;
 }
 b {font-weight: 400}
 
 h2 {
-	font: 1.5em/1.38em "Alegreya", sans-serif;
-	margin-bottom: 10px;
-	margin-top: 50px;
+    font: 1.5em/1.38em "Alegreya", sans-serif;
+    margin-top: 25px;
 }
 
+a {
+    font: 1.1em "Alegreya";
+}
 #content {
-    width: 40%; 
-    margin: auto;
+    width:860px;
+    margin:0 auto;
+}
+
+header {
+    width:180px;
+    float:left;
+    position:fixed;
+}
+
+article {
+    width:610px;
+    float:right;
+    padding-bottom:50px;
+}
+
+about {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size:14px;
 }
 
 div.pub {
@@ -35,14 +67,11 @@ div.pub {
 	font-weight: 100;
     font-size:14px;
 	margin-bottom: 10px;
-	margin-top: 20px;
 }
 
-div.about {
-    font-family: "Open Sans", sans-serif;
-	font-weight: 100;
-    font-size:14px;
-    width: 100%; 
+div.profile {
+    width: 30%; 
+    display: inline-block;
 }
 
 a:visited { 
@@ -68,19 +97,25 @@ a:hover {
 <body>
 
 <div id="content">
-	<h1>Ishit Mehta</h1>
-    <img src="static/profile3.jpg" width=200>
-	<h2>About</h2>
-    <div class="about">
-        <!--<p>-->
-        I am a PhD student at UC San Diego studying visual computing with Prof.
-        Ravi Ramamoorthi and Prof. Manmohan Chandraker. Previously I was at IIIT
-        Hyderabad working on Computer Vision and Computational Photography, advised
-        by Prof. PJ Narayanan. I have also spent time at Microsoft Research and
-        Adobe Research.
-    </div>
+    <header>
+    <h1>Ishit Mehta</h1>
+    <img src="static/profile4.jpg" width=100%>
+    </header>
+    <article>
+        <about>
+        <h2>About</h2>
+        I am a PhD student at UC San Diego in the Visual Computing Lab with <a
+            href="https://cseweb.ucsd.edu/~ravir/"> Ravi Ramamoorthi</a> and
+        <a href="https://cseweb.ucsd.edu/~mkchandraker/">Manmohan
+            Chandraker</a>. Previously, I was at IIIT Hyderabad working on
+        Computer Vision and Computational Photography.
+        I have also spent time at Microsoft Research and Adobe Research. </br>
+        </br>
+        Email: ibmehta <h>at</h> eng <h>dot</h> ucsd <h>dot</h> edu
 
-    <h2>Publications</h2>
+        </about>
+
+    <h2>Research</h2>
     <div class="pub"> 
         <b>Modulated
             Periodic Activations for Generalizable Local Functional
@@ -90,11 +125,10 @@ a:hover {
         <a href="https://ishit.github.io/modsine/">[Project Page]</a> 
         <a href="https://arxiv.org/abs/2104.03960">[Paper]</a> 
         <a href="https://ishit.github.io/modsine/img/modsine.txt">[BibTex]</a> 
-    
     </div>
 
     <div class="pub"> 
-        <b>Smartphone-based Driver License testing: Demo Abstract</b>, ACM
+        <b>Smartphone-based Driver License testing: Demo Abstract</b>, 
         SenSys 2019<br/>
         Anurag Ghosh, Vijay Lingam, Ishit Mehta, Akshay Uttama Nambi, Venkata N
         Padmanabhan, Satish Sangameswaran<br/>
@@ -103,7 +137,7 @@ a:hover {
 
 
     <div class="pub"> 
-        <b>ALT: Towards Automating Driver License Testing Using Smartphones</b>, ACM
+        <b>ALT: Towards Automating Driver License Testing Using Smartphones</b>, 
         SenSys 2019<br/>
         Akshay Uttama Nambi, Ishit Mehta, Anurag Ghosh, Vijay Lingam, Venkata N
         Padmanabhan<br/>
@@ -154,14 +188,6 @@ a:hover {
         ICME 2017<br/>
         Ishit Mehta, Parikshit Sakurikar, Rajvi Shah, PJ Narayanan<br/>
         <a href="https://ieeexplore.ieee.org/abstract/document/8019430">[Paper]</a> 
-    </div>
-
-	<h2>Contact</h2>
-    <div class="about">
-	ibmehta <b>at</b> 
-	eng <b>
-		dot</b> ucsd <b>
-		dot</b> edu</a><br><br>
     </div>
 </div>
 </body>
