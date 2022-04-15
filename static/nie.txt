@@ -1,0 +1,6 @@
+@misc{2204.07159,
+  Author = {Ishit Mehta and Manmohan Chandraker and Ravi Ramamoorthi},
+  Title = {A Level Set Theory for Neural Implicit Evolution under Explicit Flows},
+  Year = {2022},
+  Eprint = {arXiv:2204.07159},
+}
