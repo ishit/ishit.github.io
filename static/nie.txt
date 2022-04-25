@@ -1,6 +1,10 @@
-@misc{2204.07159,
-  Author = {Ishit Mehta and Manmohan Chandraker and Ravi Ramamoorthi},
-  Title = {A Level Set Theory for Neural Implicit Evolution under Explicit Flows},
-  Year = {2022},
-  Eprint = {arXiv:2204.07159},
+@misc{https://doi.org/10.48550/arxiv.2204.07159,
+  doi = {10.48550/ARXIV.2204.07159},
+  url = {https://arxiv.org/abs/2204.07159},
+  author = {Mehta, Ishit and Chandraker, Manmohan and Ramamoorthi, Ravi},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Graphics (cs.GR), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},  
+  title = {A Level Set Theory for Neural Implicit Evolution under Explicit Flows},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
