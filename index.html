@@ -45,6 +45,7 @@ header {
     width:13%;
     float:left;
     position:fixed;
+    max-width:200px;
 }
 
 article {
@@ -67,8 +68,11 @@ div.pub {
 }
 
 div.profile {
-    width: 30%; 
+    width: 70%; 
     display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size:14px;
 }
 
 a:visited { 
@@ -95,8 +99,8 @@ a:hover {
     <img src="static/profile4.jpg" width=100%>
     </header>
     <article>
-        <about>
         <h2>About</h2>
+    <div class="profile"> 
         I am a PhD student at UC San Diego in the Visual Computing Lab with <a
             href="https://cseweb.ucsd.edu/~ravir/"> Ravi Ramamoorthi</a> and
         <a href="https://cseweb.ucsd.edu/~mkchandraker/">Manmohan
@@ -105,8 +109,7 @@ a:hover {
         I have also spent time at Microsoft Research and Adobe Research. </br>
         </br>
         Email: ibmehta <h>at</h> eng <h>dot</h> ucsd <h>dot</h> edu
-
-        </about>
+    </div>
 
     <h2>Research</h2>
     <div class="pub"> 
