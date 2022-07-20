@@ -52,8 +52,8 @@ li ul, li ol{
     margin:6px 0
 }
 #content {
-    max-width:50%;
     margin:auto;
+    max-width: 1024px;
 }
 
 header {
@@ -101,16 +101,36 @@ a:hover {
 	color: #BF7D7D;
 	text-decoration: none;
 }
+.video {
+    object-fit: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.video-frame {
+    position: relative;
+    padding-bottom: 56.25%;
+    display: block;
+    overflow: hidden;
+}
+
+.video-container {
+    max-width: 1024px;
+}
 </style>
 <body>
 <div id="content">
+    <img src="../static/nie_teaser.png" width=100%>
         <h2>
-            A Level Set Theory for Neural Implicit Evolution</br> under
+            A Level Set Theory for Neural Implicit Evolution under
             Explicit Flows</br>
         </h2>
 
         <h4>
-            ECCV (Oral) 2022
+            ECCV 2022 (Oral)
         </h4>
         <article>
         <ul>
@@ -155,8 +175,17 @@ flow, inverse rendering and user-defined editing on implicit geometry.
         <a href="https://arxiv.org/abs/2204.07159">[arXiv]</a> 
         <a href="https://arxiv.org/pdf/2204.07159.pdf">[PDF]</a> 
         <a href="https://ishit.github.io/static/nie.txt">[BibTex]</a> 
-        <a href="https://drive.google.com/file/d/1xcyzqpBNiWApVKEYg8QuG29nEloU2V6_/view?usp=sharing">[Sample Code]</a> 
+        <a href="https://drive.google.com/file/d/1xcyzqpBNiWApVKEYg8QuG29nEloU2V6_/view?usp=sharing">[Code]</a> 
 
+<h3>Video</h3>
+<div class="video-container">
+    <div class="video-frame">
+		<video class="video" preload="none" controls="controls" poster="../static/nie_video_poster.png">
+			<source src="../static/nie_evolution.mp4" type="video/mp4"/>
+			<p>Your browser does not support playing this video..</p>
+		</video>
+    </div>
+</div>
 </div>
 </body>
 </html>
